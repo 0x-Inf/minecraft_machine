@@ -1,0 +1,63 @@
+INFO:root:Passing observation: 0 to agent
+INFO:root:loop took 0.05993080139160156 seconds
+INFO:root:Passing observation: 1 to agent
+INFO:root:loop took 2.869138479232788 seconds
+INFO:root:Passing observation: 2 to agent
+INFO:root:loop took 0.4383280277252197 seconds
+INFO:root:Passing observation: 3 to agent
+INFO:root:loop took 0.43199777603149414 seconds
+INFO:root:Passing observation: 4 to agent
+INFO:root:loop took 0.4497702121734619 seconds
+INFO:root:Passing observation: 5 to agent
+INFO:root:loop took 0.4542665481567383 seconds
+INFO:root:Passing observation: 6 to agent
+INFO:root:loop took 0.46862125396728516 seconds
+INFO:root:Passing observation: 7 to agent
+INFO:root:loop took 0.4444310665130615 seconds
+INFO:root:Passing observation: 8 to agent
+INFO:root:loop took 0.44057321548461914 seconds
+INFO:root:Passing observation: 9 to agent
+INFO:root:loop took 0.43623924255371094 seconds
+INFO:root:Passing observation: 10 to agent
+INFO:root:loop took 0.4369988441467285 seconds
+INFO:root:Passing observation: 11 to agent
+INFO:root:loop took 0.4416358470916748 seconds
+INFO:root:Passing observation: 12 to agent
+INFO:root:loop took 0.4652438163757324 seconds
+INFO:root:Passing observation: 13 to agent
+INFO:root:loop took 0.4397721290588379 seconds
+INFO:root:Passing observation: 14 to agent
+INFO:root:loop took 0.43715453147888184 seconds
+INFO:root:Passing observation: 15 to agent
+INFO:root:loop took 0.4392242431640625 seconds
+INFO:root:Passing observation: 16 to agent
+INFO:root:loop took 0.47103309631347656 seconds
+INFO:root:Passing observation: 17 to agent
+INFO:root:loop took 0.448225736618042 seconds
+INFO:root:Total Time: 10.072584867477417
+INFO:root:Observation Step: 18
+INFO:root:Passing observation: 18 to agent
+INFO:root:loop took 0.43227696418762207 seconds
+INFO:root:Total Time: 10.504861831665039
+INFO:root:Observation Step: 19
+INFO:root:Passing observation: 19 to agent
+INFO:root:loop took 0.43912816047668457 seconds
+INFO:root:Total Time: 10.943989992141724
+INFO:root:Observation Step: 20
+INFO:root:Passing observation: 20 to agent
+INFO:root:loop took 0.4429187774658203 seconds
+INFO:root:Passing observation: 21 to agent
+INFO:root:loop took 0.43920278549194336 seconds
+INFO:root:Passing observation: 22 to agent
+INFO:root:loop took 0.4328429698944092 seconds
+INFO:root:Passing observation: 23 to agent
+INFO:root:loop took 0.43762850761413574 seconds
+INFO:root:Passing observation: 24 to agent
+INFO:root:loop took 0.4463818073272705 seconds
+INFO:root:Passing observation: 25 to agent
+INFO:root:loop took 0.4375638961791992 seconds
+INFO:root:Passing observation: 26 to agent
+INFO:root:loop took 0.4435598850250244 seconds
+INFO:root:Passing observation: 27 to agent
+INFO:root:loop took 0.4336514472961426 seconds
+INFO:root:Passing observation: 28 to agent
