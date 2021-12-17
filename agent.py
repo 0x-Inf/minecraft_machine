@@ -1,6 +1,7 @@
 import logging
-
 import numpy as np
+import neat
+
 from keys import *
 
 
@@ -60,6 +61,20 @@ MOVES = {
 }
 
 MOVE_TIME = 0.2
+
+
+class NeatAgent:
+    def __init__(self, genome, config):
+        super(NeatAgent, self).__init__()
+
+        self.genome = genome
+        self.config = config
+
+        self.net = neat.nn.FeedForwardNetwork.create(genome, config)
+
+    def act(self, observation, step=None):
+        action = np.argmax(self.net.activate(observation))
+
 
 
 class Agent:

@@ -1,5 +1,7 @@
 import logging
 from time import time, sleep
+
+import numpy as np
 import pyautogui
 import cv2
 import argparse
@@ -90,6 +92,12 @@ def highlight_craft():
     print(f"Mine should be crafting!")
 
 
+def get_observation(screen):
+    screen_gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
+    observation = screen_gray
+    return observation
+
+
 def main():
     for i in list(range(4))[::-1]:
         print(i + 1)
@@ -105,6 +113,7 @@ def main():
     while True:
         screen = grab_screen(region=(60, 64, 970, 605))
         screen_gray = cv2.cvtColor(screen, cv2.COLOR_BGR2GRAY)
+        observation = get_observation(screen)
 
         if args.view_obs == "yes":
             if observation_step == 1:
@@ -117,7 +126,7 @@ def main():
             agent.learn(None, None)
         elif args.agent_preset == "alive":
             logging.info(f"Passing observation: {observation_step} to agent")
-            agent.act(screen_gray, step=observation_step)
+            agent.act(observation, step=observation_step)
             # sleep(2)
 
         output_img = screen_gray

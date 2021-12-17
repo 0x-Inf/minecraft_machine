@@ -1,0 +1,6 @@
+- The idea behind including the neat algorithm in this work was to see if we could solve the problem of navigating
+- and 'playing' in the minecraft env. After testing using cartpole world it appears that the neat algo is good for
+- simple envs but it would be good to try it on our minecraft problem.
+- To do this however we'll need to define an environment where the algorithm can launch multiple instances of it's
+- generations and with the way we're learning on the minecraft world (getting screen region data) this seems complicated
+- so We'll try and find another way to test if the environment in amenable to a m.l algorithm
